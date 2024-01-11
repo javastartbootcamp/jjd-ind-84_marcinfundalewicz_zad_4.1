@@ -3,12 +3,12 @@ package pl.javastart.task;
 public class Televisor {
     boolean televisorIsOn = false;
 
-    boolean turnOn() {
-        return televisorIsOn = true;
+    void turnOn() {
+        televisorIsOn = true;
     }
 
-    boolean turnOff() {
-        return televisorIsOn = false;
+    void turnOff() {
+        televisorIsOn = false;
     }
 
     void showStatus() {
